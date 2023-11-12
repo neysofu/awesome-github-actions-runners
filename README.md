@@ -1,6 +1,6 @@
 # Awesome GitHub Actions runners 🏃🏾‍♀️🤖
 
-![Awesome badge](assets/awesome.png) ![Static Badge](https://img.shields.io/badge/Made_with-Markdown-purple) ![GitHub Repo stars](https://img.shields.io/github/stars/neysofu/awesome-github-actions-runners) ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/neysofu)
+![Awesome badge](assets/awesome.png) ![Static Badge](https://img.shields.io/badge/Made_with-Markdown-purple) ![GitHub Repo stars](https://img.shields.io/github/stars/neysofu/awesome-github-actions-runners) [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/neysofu)](https://twitter.com/neysofu)
 
 GitHub Actions are pretty damn cool, but lord knows the official runners are slow, unreliable, and [expensive](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-billing-for-github-actions). Self-hosted runners are typically championed as the better alternative, but they're also a pain to set up and maintain and they come with important security [concerns](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners#self-hosted-runner-security).
 
