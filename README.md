@@ -48,7 +48,7 @@ Pricing [here](https://cloud.namespace.so/pricing).
 Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**
 - Up to 250GiB disk storage and 100GiB cache, considerably more than both BuildJet and GitHub official runners.
-- Caching is done via mounted cache, which is API-incompatible with [`actions/cache`](https://github.com/actions/cache) but much faster and more reliable. A compatibility layer is [available](https://cloud.namespace.so/docs/actions/nscloud-cache-action#github-cache-action-compatibility-mode) but marked as deprecated.[^2a]
+- Caching is done via mounted volumes, which is API-incompatible with [`actions/cache`](https://github.com/actions/cache) but much faster and more reliable. A compatibility layer is [available](https://cloud.namespace.so/docs/actions/nscloud-cache-action#github-cache-action-compatibility-mode) but marked as deprecated.[^2a]
 - Dedicated remote Docker builders with large capacity, zero-configuration incremental caching, ARM support, and more.[^2b]
 - Many, many more CI solutions other than GitHub Actions runners. Check out their website for more information.
 
