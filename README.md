@@ -29,7 +29,7 @@ Pricing [here](https://buildjet.com/for-github-actions/docs/about/pricing).
 
 Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**
-- 64GiB disk storage[^1a] and 20GiB free cache per repository[^1b] via [`buildjet/cache`](https://github.com/BuildJet/cache) (in contrast with 16GiB disk storage and 10GiB free cache per repository in GitHub official runners).
+- 64GiB disk storage[^1a] and 20GiB free cache per repository[^1b] via [`buildjet/cache`](https://github.com/BuildJet/cache) (as opposed to 16GiB disk storage and 10GiB free cache per repository in GitHub official runners).
 - ARM support.[^1c] 
 - Built-in support for [`Swatinem/rust-cache`](https://github.com/Swatinem/rust-cache) via `backend: buildjet`.
 - **(Upcoming)** SOC2 compliance.[^1d] 🔜
