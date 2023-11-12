@@ -4,7 +4,7 @@
 
 GitHub Actions are pretty damn cool, but lord knows the official runners are slow, unreliable, and [expensive](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-billing-for-github-actions). Self-hosted runners are typically championed as the better alternative, but they're also a pain to set up and maintain and they come with important security [concerns](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners#self-hosted-runner-security).
 
-**It doesn't have to be one or the other. Most people don't know this, but there's quite a few third-party GH Actions runner services out there, most of which require no changes at all to your CI workflows.** These are easy to migrate to, much cheaper than official runners, and often faster too.
+**It doesn't have to be one or the other. Most people don't know this, but there's quite a few third-party GH Actions runner services out there, most of which require no changes at all to your CI workflows.** These are easy to migrate to, much cheaper than official runners, and often faster.
 
 ## Table of contents
 
