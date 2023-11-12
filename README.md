@@ -10,7 +10,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 
 - [Awesome GitHub Actions runners 🏃🏾‍♀️🤖](#awesome-github-actions-runners-️)
 	- [Table of contents](#table-of-contents)
-	- [List of services](#list-of-services)
+	- [List of providers](#list-of-providers)
 		- [BuildJet ⭐](#buildjet-)
 		- [Namespace ⭐](#namespace-)
 		- [Actuated ⭐](#actuated-)
@@ -19,7 +19,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
 
-## List of services
+## List of providers
 
 ### BuildJet ⭐
 
