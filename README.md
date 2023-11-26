@@ -57,7 +57,7 @@ Notable features:
 
 ### Actuated ⭐
 
-[Actuated](https://actuated.io/) brings fast and secure GitHub Actions to your own infrastructure. It's a more ops-heavy solution compared to fully managed runners, but this comes with significant benefits and attractive pricing.
+[Actuated](https://actuated.dev/) brings fast and secure GitHub Actions to your own infrastructure. It's a more ops-heavy solution compared to fully managed runners, but this comes with significant benefits and attractive pricing.
 
 Pricing [here](https://actuated.dev/pricing).
 
