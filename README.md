@@ -103,8 +103,8 @@ Notable features:
 - 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
-- Minimal documentation and unclear hardware specs.
-- No caching, Windows, macOS, ARM, or custom runner images support yet as of December 2023.
+- Minimal documentation and unclear hardware specs. ⚠️
+- No caching, Windows, macOS, ARM, or custom runner images support yet as of December 2023. 🚧
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
