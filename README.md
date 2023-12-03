@@ -95,16 +95,20 @@ Notable features:
 
 ### WarpBuild
 
-[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub actions. It's a very new player in the space, made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's a very new product made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
 
 Pricing [here](https://www.warpbuild.com/pricing).
 
 Notable features:
-- 1-line change to get faster and cheaper builds in most projects.[^warp-1click](https://docs.warpbuild.com/quickstart)
-- **Live debug failed jobs over SSH.**[^warp-debug](https://docs.warpbuild.com/tools/action-debugger)
-- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing](https://www.warpbuild.com/pricing)
+- 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
+- **Live debug failed jobs over SSH.**[^warp-debug]
+- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
 - Minimal documentation and unclear hardware specs.
 - No caching, Windows, macOS, ARM, or custom runner images support yet as of December 2023.
+
+[^warp-1click]: https://docs.warpbuild.com/quickstart
+[^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
+[^warp-pricing]: https://www.warpbuild.com/pricing
 
 ### Ubicloud
 
