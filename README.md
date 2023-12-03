@@ -112,14 +112,17 @@ Notable features:
 
 ### Ubicloud
 
-[Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering.
+[Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering. It doesn't seem to have any feature that other providers lack, but it has one of the most attractive pricing plans in the market.
 
 Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
 
 Notable features:
-- **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
-- **1250 free minutes per month.**[^5a](https://www.ubicloud.com/use-cases/github-actions)
-- No caching support and unclear hardware specs.
+- **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap].
+- **1250 free minutes per month.**[^5a]
+- No caching support and unclear hardware specs. 🚧
+
+[^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
+[^5a]: https://www.ubicloud.com/use-cases/github-actions
 
 ### GitRunners
 
