@@ -15,6 +15,8 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [Namespace ⭐](#namespace-)
 		- [Actuated ⭐](#actuated-)
 		- [Cirun](#cirun)
+		- [WarpBuild](#warpbuild)
+		- [Ubicloud](#ubicloud)
 		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
@@ -90,6 +92,30 @@ Notable features:
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
 [^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
+
+### WarpBuild
+
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub actions. It's a very new player in the space, made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
+
+Pricing [here](https://www.warpbuild.com/pricing).
+
+Notable features:
+- 1-line change to get faster and cheaper builds in most projects.[^warp-1click](https://docs.warpbuild.com/quickstart)
+- **Live debug failed jobs over SSH.**[^warp-debug](https://docs.warpbuild.com/tools/action-debugger)
+- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing](https://www.warpbuild.com/pricing)
+- Minimal documentation and unclear hardware specs.
+- No caching, Windows, macOS, ARM, or custom runner images support yet as of December 2023.
+
+### Ubicloud
+
+[Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering.
+
+Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
+
+Notable features:
+- **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
+- **1250 free minutes per month.**[^5a](https://www.ubicloud.com/use-cases/github-actions)
+- No caching support and unclear hardware specs.
 
 ### GitRunners
 
