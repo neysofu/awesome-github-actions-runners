@@ -34,7 +34,7 @@ Notable features:
 - 64GiB disk storage[^1a] and 20GiB free cache per repository[^1b] via [`buildjet/cache`](https://github.com/BuildJet/cache) (as opposed to 16GiB disk storage and 10GiB free cache per repository in GitHub official runners).
 - ARM support.[^1c] 
 - Built-in support for [`Swatinem/rust-cache`](https://github.com/Swatinem/rust-cache) via `backend: buildjet`.
-- **(Upcoming)** SOC2 compliance.[^1d] 🔜
+- **(Coming soon)** SOC2 compliance.[^1d] 🚧
 
 [^1a]: https://buildjet.com/for-github-actions/docs/runners/hardware#runner-disk
 [^1b]: https://buildjet.com/for-github-actions/docs/guides/migrating-to-buildjet-cache
@@ -101,11 +101,11 @@ Pricing [here](https://www.warpbuild.com/pricing).
 
 Notable features:
 - 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
-- Support for x86-64 and arm runners with unlimited concurrency.
+- Support for x86-64 and ARM runners with unlimited concurrency.
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
 - Minimal documentation and unclear hardware specs. ⚠️
-- Windows, macOS, and custom runner images support coming soon (~Jan 2024). 🚧
+- **(Coming soon)** Windows, macOS, and custom runner images support (~Jan 2024). 🚧
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
@@ -120,7 +120,7 @@ Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-pe
 Notable features:
 - **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap].
 - **1250 free minutes per month.**[^5a]
-- No caching support and unclear hardware specs. 🚧
+- Unclear hardware specs. ⚠️
 
 [^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
 [^5a]: https://www.ubicloud.com/use-cases/github-actions
@@ -133,8 +133,8 @@ Pricing [here](https://gitrunners.com/#pricing).
 
 Notable features:
 - 1-line change to get faster and cheaper builds in most projects.
-- **(Upcoming)** Persistent storage and mounted volumes. 🔜
-- **(Upcoming)** Flamegraph visualizations to analyze workflow runtimes. 🔜
+- **(Coming soon)** Persistent storage and mounted volumes. 🚧
+- **(Coming soon)** Flamegraph visualizations to analyze workflow runtimes. 🚧
 
 ## Honorable mentions
 
