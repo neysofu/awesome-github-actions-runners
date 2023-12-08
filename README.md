@@ -43,19 +43,27 @@ Notable features:
 
 ### Namespace ⭐
 
-[Namespace](https://cloud.namespace.so/docs/features/faster-github-actions) provides development environments, remote builders, ephemeral environments, managed CI runners, and more.
+[Namespace](https://namespace.so/docs/features/faster-github-actions) provides development environments, remote builders, ephemeral environments, managed CI runners, and more.
 
-Pricing [here](https://cloud.namespace.so/pricing).
+Pricing [here](https://namespace.so/pricing).
 
 Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**
-- Up to 250GiB disk storage and 100GiB cache, considerably more than both BuildJet and GitHub official runners.
-- Caching is done via mounted volumes, which is API-incompatible with [`actions/cache`](https://github.com/actions/cache) but much faster and more reliable. A compatibility layer is [available](https://cloud.namespace.so/docs/actions/nscloud-cache-action#github-cache-action-compatibility-mode) but marked as deprecated.[^2a]
-- Dedicated remote Docker builders with large capacity, zero-configuration incremental caching, ARM support, and more.[^2b]
-- Many, many more CI solutions other than GitHub Actions runners. Check out their website for more information.
+- Up to 250GiB disk storage and terabytes of cache, considerably more than both BuildJet and GitHub official runners.
+- High-performance caching via mounted volumes backed by local high-performance storage (separate API from [`actions/cache`](https://github.com/actions/cache)); but much faster and more reliable.
+- Built-in observability for CPU, Memory and Storage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
+- Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
+- Custom base image support via "Runner Profiles", a configuration system that also simplifies runner label management.
+- Also supports Buildkite[^2e], and other providers coming soon.
+- Supports ephemeral previews running in the same runner or separate instances, either Docker[^2c] or Kubernetes[^2d] based.
+- **(Coming soon)** Mac Silicon support (January 2024), Windows support (Q1 2024).
+- **(Coming soon)** SOC2 compliance (Q1 2024).
 
-[^2a]: https://cloud.namespace.so/docs/actions/nscloud-cache-action
-[^2b]: https://cloud.namespace.so/docs/features/faster-builds
+[^2a]: https://namespace.so/docs/actions/nscloud-cache-action
+[^2b]: https://namespace.so/docs/features/faster-builds
+[^2c]: https://namespace.so/docs/features/previews
+[^2d]: https://namespace.so/docs/features/kubernetes-previews
+[^2e]: https://namespace.so/docs/features/on-demand-buildkite-agents
 
 ### Actuated ⭐
 
