@@ -146,6 +146,6 @@ If you're interested in going down the self-hosted runner route, make sure to ch
 
 ## Contributing to this list
 
-If you'd like to add a service to this list or suggest any changes, please feel free to open a PR.
+If you'd like to add a service to this list or suggest any changes, please open a PR! The list is intentionally opinionated based on pricing and features, but I strive to be reasonable and impartial.
 
 ![PRs welcome!](https://camo.githubusercontent.com/0ff11ed110cfa69f703ef0dcca3cee6141c0a8ef465e8237221ae245de3deb3d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265)
