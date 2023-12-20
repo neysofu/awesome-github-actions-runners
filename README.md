@@ -50,7 +50,7 @@ Pricing [here](https://namespace.so/pricing).
 Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**
 - Up to 250GiB disk storage and terabytes of cache, considerably more than both BuildJet and GitHub official runners.
-- High-performance caching via mounted volumes backed by local high-performance storage (separate API from [`actions/cache`](https://github.com/actions/cache)); but much faster and more reliable.
+- High-performance caching via mounted volumes backed by local storage. This is a separate API from [`actions/cache`](https://github.com/actions/cache), but much faster and more reliable.
 - Built-in observability for CPU, memory, and storage usage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
 - Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
 - Supports ephemeral previews running on runners as well as separate instances, based on Docker[^2c] or Kubernetes[^2d].
