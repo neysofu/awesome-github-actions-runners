@@ -34,12 +34,14 @@ Notable features:
 - 64GiB disk storage[^1a] and 20GiB free cache per repository[^1b] via [`buildjet/cache`](https://github.com/BuildJet/cache) (as opposed to 16GiB disk storage and 10GiB free cache per repository in GitHub official runners).
 - ARM support.[^1c] 
 - Built-in support for [`Swatinem/rust-cache`](https://github.com/Swatinem/rust-cache) via `backend: buildjet`.
+- In some cases cache download and upload speeds have been reported to be quite bad, slowing down builds[^buildjet-bad-cache]. ⚠️
 - **(Coming soon)** SOC2 compliance.[^1d] 🚧
 
 [^1a]: https://buildjet.com/for-github-actions/docs/runners/hardware#runner-disk
 [^1b]: https://buildjet.com/for-github-actions/docs/guides/migrating-to-buildjet-cache
 [^1c]: https://buildjet.com/for-github-actions/docs/guides/migrating-to-arm
 [^1d]: https://buildjet.com/for-github-actions/docs/about/security#is-build-jet-soc-2-compliant
+[^buildjet-bad-cache]: https://news.ycombinator.com/item?id=38571518
 
 ### Namespace ⭐
 
