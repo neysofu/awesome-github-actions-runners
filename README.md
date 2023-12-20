@@ -43,7 +43,7 @@ Notable features:
 
 ### Namespace ⭐
 
-[Namespace](https://namespace.so/docs/features/faster-github-actions) provides development environments, remote builders, ephemeral environments, managed CI runners, and more.
+[Namespace](https://namespace.so/docs/features/faster-github-actions) provides development environments, remote builders, ephemeral environments, managed CI runners, and more. It also supports BuildKite[^2e].
 
 Pricing [here](https://namespace.so/pricing).
 
@@ -53,8 +53,7 @@ Notable features:
 - High-performance caching via mounted volumes backed by local high-performance storage (separate API from [`actions/cache`](https://github.com/actions/cache)); but much faster and more reliable.
 - Built-in observability for CPU, memory, and storage usage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
 - Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
-- Also supports Buildkite[^2e], and other providers coming soon.
-- Supports ephemeral previews running in the same runner or separate instances, either Docker[^2c] or Kubernetes[^2d] based.
+- Supports ephemeral previews running on runners as well as separate instances, based on Docker[^2c] or Kubernetes[^2d].
 - Custom base images support.
 - **(Coming soon)** Apple Silicon support (~Jan 2024), Windows support (Q1 2024). 🚧
 - **(Coming soon)** SOC2 compliance (Q1 2024). 🚧
