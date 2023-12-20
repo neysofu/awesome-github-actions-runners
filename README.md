@@ -56,8 +56,8 @@ Notable features:
 - Custom base image support via "Runner Profiles", a configuration system that also simplifies runner label management.
 - Also supports Buildkite[^2e], and other providers coming soon.
 - Supports ephemeral previews running in the same runner or separate instances, either Docker[^2c] or Kubernetes[^2d] based.
-- **(Coming soon)** Mac Silicon support (January 2024), Windows support (Q1 2024).
-- **(Coming soon)** SOC2 compliance (Q1 2024).
+- **(Coming soon)** Mac Silicon support (January 2024), Windows support (Q1 2024). 🚧
+- **(Coming soon)** SOC2 compliance (Q1 2024). 🚧
 
 [^2a]: https://namespace.so/docs/actions/nscloud-cache-action
 [^2b]: https://namespace.so/docs/features/faster-builds
