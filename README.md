@@ -107,7 +107,7 @@ Notable features:
 - Native ARM support.
 - GPU support.[^4b]
 - Support for all major cloud providers.[^4c]
-- Built by just one developer ([Amit Kumar](https://github.com/aktech)) in their spare time, so long-term maintenance is a concern.
+- Built by just one developer ([Amit Kumar](https://github.com/aktech)) in their spare time, so long-term maintenance is a concern. ⚠️
 
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
