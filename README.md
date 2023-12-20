@@ -53,10 +53,10 @@ Notable features:
 - High-performance caching via mounted volumes backed by local high-performance storage (separate API from [`actions/cache`](https://github.com/actions/cache)); but much faster and more reliable.
 - Built-in observability for CPU, memory, and storage usage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
 - Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
-- Custom base image support via "Runner Profiles", a configuration system that also simplifies runner label management.
 - Also supports Buildkite[^2e], and other providers coming soon.
 - Supports ephemeral previews running in the same runner or separate instances, either Docker[^2c] or Kubernetes[^2d] based.
-- **(Coming soon)** Mac Silicon support (January 2024), Windows support (Q1 2024). 🚧
+- Custom base images support.
+- **(Coming soon)** Apple Silicon support (~Jan 2024), Windows support (Q1 2024). 🚧
 - **(Coming soon)** SOC2 compliance (Q1 2024). 🚧
 
 [^2a]: https://namespace.so/docs/actions/nscloud-cache-action
@@ -113,7 +113,7 @@ Notable features:
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
 - Minimal documentation and unclear hardware specs. ⚠️
-- **(Coming soon)** Windows, macOS, and custom runner images support (~Jan 2024). 🚧
+- **(Coming soon)** Windows, macOS, and custom base images support (~Jan 2024). 🚧
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
