@@ -14,8 +14,8 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [BuildJet ⭐](#buildjet-)
 		- [Namespace ⭐](#namespace-)
 		- [Actuated ⭐](#actuated-)
-		- [Cirun](#cirun)
 		- [WarpBuild](#warpbuild)
+		- [Cirun](#cirun)
 		- [Ubicloud](#ubicloud)
 		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
@@ -76,6 +76,24 @@ Notable features:
 [^3b]: https://docs.actuated.dev/tasks/debug-ssh/
 [^3c]: https://actuated.dev/blog
 
+### WarpBuild
+
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's a very new product made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
+
+Pricing [here](https://www.warpbuild.com/pricing).
+
+Notable features:
+- 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
+- Support for x86-64 and ARM runners with unlimited concurrency.
+- **Live debug failed jobs over SSH.**[^warp-debug]
+- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
+- Minimal documentation and unclear hardware specs. ⚠️
+- **(Coming soon)** Windows, macOS, and custom runner images support (~Jan 2024). 🚧
+
+[^warp-1click]: https://docs.warpbuild.com/quickstart
+[^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
+[^warp-pricing]: https://www.warpbuild.com/pricing
+
 ### Cirun
 
 [Cirun](https://cirun.io/) is a tool which lets you **create on-demand self-hosted GitHub Actions runners on your cloud**. After connecting your cloud provider of choice, it's simple to set up and cheap to run.
@@ -94,24 +112,6 @@ Notable features:
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
 [^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
-
-### WarpBuild
-
-[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's a very new product made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
-
-Pricing [here](https://www.warpbuild.com/pricing).
-
-Notable features:
-- 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
-- Support for x86-64 and ARM runners with unlimited concurrency.
-- **Live debug failed jobs over SSH.**[^warp-debug]
-- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
-- Minimal documentation and unclear hardware specs. ⚠️
-- **(Coming soon)** Windows, macOS, and custom runner images support (~Jan 2024). 🚧
-
-[^warp-1click]: https://docs.warpbuild.com/quickstart
-[^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
-[^warp-pricing]: https://www.warpbuild.com/pricing
 
 ### Ubicloud
 
