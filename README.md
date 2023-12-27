@@ -1,4 +1,4 @@
-# Awesome GitHub Actions runners 🏃🏾‍♀️🤖
+# Awesome GitHub Actions runners ⚡🤖
 
 ![Awesome badge](assets/awesome.png) ![Static Badge](https://img.shields.io/badge/Made_with-Markdown-purple) ![GitHub Repo stars](https://img.shields.io/github/stars/neysofu/awesome-github-actions-runners) [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/neysofu)](https://twitter.com/neysofu)
 
