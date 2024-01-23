@@ -130,11 +130,13 @@ Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**[^ubicloud-cheap]
 - **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
 - **1250 free minutes per month.**[^5a]
-- Source open under the Elastic V2 license, if you choose to manage Ubicloud VMs yourself[^5b]
+- Native ARM support.[^5b]
+- Source open under the Elastic V2 license, if you choose to manage Ubicloud VMs yourself[^5c]
 
 [^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
 [^5a]: https://www.ubicloud.com/use-cases/github-actions
-[^5b]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
+[^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
+[^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
 
 ### GitRunners
 
