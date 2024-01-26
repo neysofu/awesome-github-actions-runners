@@ -85,7 +85,7 @@ Notable features:
 
 ### WarpBuild
 
-[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's a very new product made by the creators of [Argonaut](https://www.argonaut.dev/) and it has few features compared to other providers, but it's still worth keeping an eye on as it's likely to improve over time.
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's made by the creators of [Argonaut](https://www.argonaut.dev/). It's extremely quick to setup with 
 
 Pricing [here](https://www.warpbuild.com/pricing).
 
@@ -94,12 +94,13 @@ Notable features:
 - Support for x86-64 and ARM runners with unlimited concurrency.
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
-- Minimal documentation and unclear hardware specs. ⚠️
-- **(Coming soon)** Windows, macOS, and custom base images support (~Jan 2024). 🚧
+- Support for macOS runners on M2 Pros.[^warp-runners]
+- **(Coming soon)** Automated container layer caching and AI powered analytics (~Q1 2024). 🚧
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
 [^warp-pricing]: https://www.warpbuild.com/pricing
+[^warp-runners]: https://docs.warpbuild.com/runners#macos-m2-pro-on-arm64
 
 ### Cirun
 
