@@ -16,6 +16,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [Actuated ⭐](#actuated-)
 		- [WarpBuild](#warpbuild)
 		- [Ubicloud](#ubicloud)
+		- [RunsOn](#runson)
 		- [Cirun](#cirun)
 		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
@@ -119,6 +120,19 @@ Notable features:
 [^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
 [^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
 
+### RunsOn
+
+[RunsOn](https://runs-on.com/) is a self-hosted GitHub Actions runner tool that runs on your own AWS account. It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
+
+Pricing [here](https://runs-on.com/).
+
+Notable features:
+- **Easy install with a QuickFormation template** (video guide available).
+- Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending.
+- ARM & GPU support.
+- Up to 256 vCPUs per runner, by far the most of any provider.
+- Although actively maintained and developed as of Feb. '24, it's built by just one developer ([Cyril Rohr](https://runs-on.com/about/)), so long-term maintenance is a concern. ⚠️
+
 ### Cirun
 
 [Cirun](https://cirun.io/) is a tool which lets you **create on-demand self-hosted GitHub Actions runners on your cloud**. After connecting your cloud provider of choice, it's simple to set up and cheap to run.
@@ -129,7 +143,7 @@ Notable features:
 - **1-line change to get faster and cheaper builds in most projects.**[^4a]
 - **Free for public repositories!**
 - Cheap, flat-rate pricing based on the number of private repositories you run Cirun on.
-- Native ARM support.
+- ARM support.
 - GPU support.[^4b]
 - Support for all major cloud providers.[^4c]
 - Built by just one developer ([Amit Kumar](https://github.com/aktech)) in their spare time, so long-term maintenance is a concern. ⚠️
