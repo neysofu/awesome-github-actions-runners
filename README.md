@@ -8,15 +8,15 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 
 ## Table of contents
 
-- [Awesome GitHub Actions runners 🏃🏾‍♀️🤖](#awesome-github-actions-runners-️)
+- [Awesome GitHub Actions runners ⚡🤖](#awesome-github-actions-runners-)
 	- [Table of contents](#table-of-contents)
 	- [List of providers](#list-of-providers)
 		- [Namespace ⭐](#namespace-)
 		- [BuildJet ⭐](#buildjet-)
 		- [Actuated ⭐](#actuated-)
 		- [WarpBuild](#warpbuild)
-		- [Cirun](#cirun)
 		- [Ubicloud](#ubicloud)
+		- [Cirun](#cirun)
 		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
@@ -101,6 +101,24 @@ Notable features:
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
 [^warp-pricing]: https://www.warpbuild.com/pricing
 
+### Ubicloud
+
+[Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering. It doesn't seem to have any feature that other providers lack, but it has one of the most attractive pricing plans in the market.
+
+Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
+
+Notable features:
+- **1-line change to get faster and cheaper builds in most projects.**[^ubicloud-cheap]
+- **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
+- **1250 free minutes per month.**[^5a]
+- Native ARM support.[^5b]
+- Source open under the Elastic V2 license, if you choose to manage Ubicloud VMs yourself[^5c]
+
+[^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
+[^5a]: https://www.ubicloud.com/use-cases/github-actions
+[^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
+[^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
+
 ### Cirun
 
 [Cirun](https://cirun.io/) is a tool which lets you **create on-demand self-hosted GitHub Actions runners on your cloud**. After connecting your cloud provider of choice, it's simple to set up and cheap to run.
@@ -119,24 +137,6 @@ Notable features:
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
 [^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
-
-### Ubicloud
-
-[Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering. It doesn't seem to have any feature that other providers lack, but it has one of the most attractive pricing plans in the market.
-
-Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
-
-Notable features:
-- **1-line change to get faster and cheaper builds in most projects.**[^ubicloud-cheap]
-- **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
-- **1250 free minutes per month.**[^5a]
-- Native ARM support.[^5b]
-- Source open under the Elastic V2 license, if you choose to manage Ubicloud VMs yourself[^5c]
-
-[^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
-[^5a]: https://www.ubicloud.com/use-cases/github-actions
-[^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
-[^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
 
 ### GitRunners
 
