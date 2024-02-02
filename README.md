@@ -85,7 +85,7 @@ Notable features:
 
 ### WarpBuild
 
-[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions. It's made by the creators of [Argonaut](https://www.argonaut.dev/). It's extremely quick to setup with 
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions, made by the creators of [Argonaut](https://www.argonaut.dev/).
 
 Pricing [here](https://www.warpbuild.com/pricing).
 
