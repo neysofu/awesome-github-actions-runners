@@ -132,7 +132,7 @@ Notable features:
 - **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
 - **1250 free minutes per month.**[^5a]
 - Native ARM support.[^5b]
-- Source open under the Elastic V2 license, if you choose to manage Ubicloud VMs yourself[^5c]
+- Open source under the GNU AGPL v3.0 license.[^5c]
 
 [^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
 [^5a]: https://www.ubicloud.com/use-cases/github-actions
