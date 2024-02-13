@@ -8,15 +8,16 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 
 ## Table of contents
 
-- [Awesome GitHub Actions runners 🏃🏾‍♀️🤖](#awesome-github-actions-runners-️)
+- [Awesome GitHub Actions runners ⚡🤖](#awesome-github-actions-runners-)
 	- [Table of contents](#table-of-contents)
 	- [List of providers](#list-of-providers)
 		- [Namespace ⭐](#namespace-)
 		- [BuildJet ⭐](#buildjet-)
 		- [Actuated ⭐](#actuated-)
 		- [WarpBuild](#warpbuild)
-		- [Cirun](#cirun)
 		- [Ubicloud](#ubicloud)
+		- [RunsOn](#runson)
+		- [Cirun](#cirun)
 		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
@@ -102,25 +103,6 @@ Notable features:
 [^warp-pricing]: https://www.warpbuild.com/pricing
 [^warp-runners]: https://docs.warpbuild.com/runners#macos-m2-pro-on-arm64
 
-### Cirun
-
-[Cirun](https://cirun.io/) is a tool which lets you **create on-demand self-hosted GitHub Actions runners on your cloud**. After connecting your cloud provider of choice, it's simple to set up and cheap to run.
-
-Pricing [here](https://cirun.io/#pricing).
-
-Notable features:
-- **1-line change to get faster and cheaper builds in most projects.**[^4a]
-- **Free for public repositories!**
-- Cheap, flat-rate pricing based on the number of private repositories you run Cirun on.
-- Native ARM support.
-- GPU support.[^4b]
-- Support for all major cloud providers.[^4c]
-- Built by just one developer ([Amit Kumar](https://github.com/aktech)) in their spare time, so long-term maintenance is a concern. ⚠️
-
-[^4a]: https://docs.cirun.io/reference/one-line
-[^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
-[^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
-
 ### Ubicloud
 
 [Ubicloud](https://www.ubicloud.com/docs/github-actions-integration/quickstart) brings IaaS solutions to bare metal servers, but it also offers a managed platform. GitHub Actions runners are part of this offering. It doesn't seem to have any feature that other providers lack, but it has one of the most attractive pricing plans in the market.
@@ -138,6 +120,39 @@ Notable features:
 [^5a]: https://www.ubicloud.com/use-cases/github-actions
 [^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
 [^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
+
+### RunsOn
+
+[RunsOn](https://runs-on.com/) is a self-hosted, open-source GitHub Actions runner tool that runs on your own AWS account. It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
+
+Pricing [here](https://runs-on.com/).
+
+Notable features:
+- **1-line change to get faster and cheaper builds in most projects.**
+- Easy install with a CloudFormation template (video guide available).
+- Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending.
+- ARM, GPU, and custom base image support.
+- Up to 256 vCPUs per runner, by far the most of any provider, and customizable disk sizes and instance types.
+- Although actively maintained and developed as of Feb. '24, it's built by just one developer ([Cyril Rohr](https://runs-on.com/about/)), so long-term maintenance is a concern. ⚠️
+
+### Cirun
+
+[Cirun](https://cirun.io/) is a tool which lets you **create on-demand self-hosted GitHub Actions runners on your cloud**. After connecting your cloud provider of choice, it's simple to set up and cheap to run.
+
+Pricing [here](https://cirun.io/#pricing).
+
+Notable features:
+- **1-line change to get faster and cheaper builds in most projects.**[^4a]
+- **Free for public repositories!**
+- Cheap, flat-rate pricing based on the number of private repositories you run Cirun on.
+- ARM support.
+- GPU support.[^4b]
+- Support for all major cloud providers.[^4c]
+- Built by just one developer ([Amit Kumar](https://github.com/aktech)) in their spare time, so long-term maintenance is a concern. ⚠️
+
+[^4a]: https://docs.cirun.io/reference/one-line
+[^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
+[^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
 
 ### GitRunners
 
