@@ -122,15 +122,16 @@ Notable features:
 
 ### RunsOn
 
-[RunsOn](https://runs-on.com/) is a self-hosted GitHub Actions runner tool that runs on your own AWS account. It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
+[RunsOn](https://runs-on.com/) is a self-hosted, open-source GitHub Actions runner tool that runs on your own AWS account. It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
 
 Pricing [here](https://runs-on.com/).
 
 Notable features:
-- **Easy install with a QuickFormation template** (video guide available).
+- **1-line change to get faster and cheaper builds in most projects.**
+- Easy install with a CloudFormation template (video guide available).
 - Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending.
-- ARM & GPU support.
-- Up to 256 vCPUs per runner, by far the most of any provider.
+- ARM, GPU, and custom base image support.
+- Up to 256 vCPUs per runner, by far the most of any provider, and customizable disk sizes and instance types.
 - Although actively maintained and developed as of Feb. '24, it's built by just one developer ([Cyril Rohr](https://runs-on.com/about/)), so long-term maintenance is a concern. ⚠️
 
 ### Cirun
