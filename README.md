@@ -37,8 +37,9 @@ Notable features:
 - Built-in observability for CPU, memory, and storage usage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
 - Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
 - Supports ephemeral previews running on runners as well as separate instances, based on Docker[^2c] or Kubernetes[^2d].
+- macOS runners on Apple Silicon (M2).
 - Custom base images support.
-- **(Coming soon)** Apple Silicon support (~Jan 2024), Windows support (Q1 2024). 🚧
+- **(Coming soon)** Windows support (Q1 2024). 🚧
 - **(Coming soon)** SOC2 compliance (Q1 2024). 🚧
 
 [^2a]: https://namespace.so/docs/actions/nscloud-cache-action
