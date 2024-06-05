@@ -14,6 +14,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [Namespace ⭐](#namespace-)
 		- [BuildJet ⭐](#buildjet-)
 		- [Actuated ⭐](#actuated-)
+		- [Blacksmith](#blacksmith)
 		- [WarpBuild](#warpbuild)
 		- [Ubicloud](#ubicloud)
 		- [RunsOn](#runson)
@@ -84,6 +85,29 @@ Notable features:
 [^3a]: https://actuated.dev/blog/native-arm64-for-github-actions
 [^3b]: https://docs.actuated.dev/tasks/debug-ssh/
 [^3c]: https://actuated.dev/blog
+
+### Blacksmith
+
+[Blacksmith](https://blacksmith.sh/) provides high-performance runners for GitHub Actions that run up to twice as fast as GitHub's official runners at half the cost. Blacksmith was founded by ex-engineers at Cockroach Labs and Faire.
+
+Pricing [here](https://docs.blacksmith.sh/runners/pricing).
+
+Notable features:
+- 1-line change to get faster and cheaper builds in most projects.[~blacksmith-1line]
+- 4x faster cache speeds. The Blacksmith cache co-locates cache artifacts in the same datacenter park as the bare metal instances running our VMs. [~blacksmith-cache]
+- Docker local registry mirror caches Docker images and prevents customers from getting rate limited by Docker Hub.[~blacksmith-mirror]
+- Migrate existing GitHub Actions workflows to Blacksmith through the Blacksmith dashboard with a few clicks. [~blacksmith-wizard]
+- SOC2 Type 1 Compliant [~blacksmith-soc2]
+- 3000 free minutes per month.
+- **(Coming soon)** ARM runners.
+- **(Coming soon)** Sticky disks to cache Docker layers and speed up builds.
+- **(Coming soon)** Workflow insights to help customers break down spending and performance across workflows.
+
+[~blacksmith-1line]: https://docs.blacksmith.sh/getting-started/quickstart
+[~blacksmith-cache]: https://docs.blacksmith.sh/feature-spotlight/collocated-cache
+[~blacksmith-mirror]: https://docs.blacksmith.sh/feature-spotlight/docker-pull-through-mirror
+[~blacksmith-wizard]: https://blacksmith.sh/blog/launch-migration-wizard
+[~blacksmith-soc2]: https://blacksmith.sh/blog/blacksmith-is-soc2-type-1-compliant
 
 ### WarpBuild
 
