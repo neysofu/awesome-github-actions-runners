@@ -112,7 +112,7 @@ Notable features:
 Pricing [here](https://docs.blacksmith.sh/runners/pricing).
 
 Notable features:
-- 1-line change to get faster and cheaper builds in most projects, as well as a "**Migration Wizard**" which can automatically migrate multiple repositories at once.[^blacksmith-1line][^blacksmith-wizard]
+- 1-line change to get faster and cheaper builds in most projects, as well as a "**Migration Wizard**" which can automatically migrate multiple workflow files at once.[^blacksmith-1line][^blacksmith-wizard]
 - 64GiB disk storage[^blacksmith-storage] and 25GiB high-speed cache per repository via [`useblacksmith/cache@v5`](https://github.com/useblacksmith/cache).
 - Docker local registry mirror which caches Docker images and prevents customers from getting rate limited by Docker Hub.[^blacksmith-mirror]
 - SOC2 Type 1 Compliant [^blacksmith-soc2]
