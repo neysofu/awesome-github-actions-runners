@@ -19,7 +19,6 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [Ubicloud](#ubicloud)
 		- [RunsOn](#runson)
 		- [Cirun](#cirun)
-		- [GitRunners](#gitrunners)
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
 
@@ -178,17 +177,6 @@ Notable features:
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
 [^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
-
-### GitRunners
-
-[GitRunners](https://gitrunners.com/) speeds up GitHub actions with cost-effective performance runners. It's cheaper than GitHub official runners, but doesn't hold up as well against other third-party runners.
-
-Pricing [here](https://gitrunners.com/#pricing).
-
-Notable features:
-- 1-line change to get faster and cheaper builds in most projects.
-- **(Coming soon)** Persistent storage and mounted volumes. 🚧
-- **(Coming soon)** Flamegraph visualizations to analyze workflow runtimes. 🚧
 
 ## Honorable mentions
 
