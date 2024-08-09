@@ -94,7 +94,7 @@ Pricing [here](https://www.warpbuild.com/pricing).
 Notable features:
 - 1-line change to get faster and cheaper builds in most projects[^warp-1click].
 - Support for x86-64 and ARM runners with free unlimited concurrency.
-- Unlimited fast caches and fast `setup-*` actions[^warp-cache].
+- 150GB disk storage with unlimited fast caches and `setup-*` actions[^warp-cache].
 - Bring Your Own Cloud to run workflows in your AWS account and region[^warp-byoc].
 - Customizable runner, disk, and processor configurations[^warp-customrunners].
 - **Live debug failed jobs over SSH.**[^warp-debug]
