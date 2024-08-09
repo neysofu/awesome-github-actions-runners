@@ -92,17 +92,24 @@ Notable features:
 Pricing [here](https://www.warpbuild.com/pricing).
 
 Notable features:
-- 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
-- Support for x86-64 and ARM runners with unlimited concurrency.
+- 1-line change to get faster and cheaper builds in most projects[^warp-1click].
+- Support for x86-64 and ARM runners with free unlimited concurrency.
+- Unlimited fast caches and fast `setup-*` actions[^warp-cache].
+- Bring Your Own Cloud to run workflows in your AWS account and region[^warp-byoc].
+- Customizable runner, disk, and processor configurations[^warp-customrunners].
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
 - Support for macOS runners on M2 Pros.[^warp-runners]
-- **(Coming soon)** Automated container layer caching and AI powered analytics (~Q1 2024). 🚧
+- Container layer caching, SOC2 Type 2, and 10x faster incremental builds (~Aug 2024). 🚧
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
 [^warp-pricing]: https://www.warpbuild.com/pricing
 [^warp-runners]: https://docs.warpbuild.com/runners#macos-m2-pro-on-arm64
+[^warp-byoc]: https://docs.warpbuild.com/byoc
+[^warp-cache]: https://docs.warpbuild.com/cache
+[^warp-customrunners]: https://docs.warpbuild.com/cloud-runners/custom-runners
+
 
 ### Blacksmith
 
