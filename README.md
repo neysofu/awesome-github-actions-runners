@@ -26,7 +26,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 
 ### Namespace ⭐
 
-[Namespace](https://namespace.so/docs/features/faster-github-actions) provides development environments, remote builders, ephemeral environments, managed CI runners, and more. It also supports BuildKite[^2e].
+[Namespace](https://namespace.so/docs/features/faster-github-actions) provides managed CI runners, remote Docker builders, native Bazel caching and more. It also backs BuildKite Hosted Agents[^2e].
 
 Pricing [here](https://namespace.so/pricing).
 
@@ -37,16 +37,15 @@ Notable features:
 - Built-in observability for CPU, memory, and storage usage. Streams and retains Docker container logs in addition to runner logs. Remote terminal (SSH) access.
 - Dedicated high-performance remote Docker builders with zero-configuration incremental caching, ARM support, and more.[^2b]
 - Supports ephemeral previews running on runners as well as separate instances, based on Docker[^2c] or Kubernetes[^2d].
-- macOS runners on Apple Silicon (M2).
-- Custom base images support.
-- **(Coming soon)** Windows support (Q1 2024). 🚧
-- **(Coming soon)** SOC2 compliance (Q1 2024). 🚧
+- macOS runners on Apple Silicon (M4 Pro and M2 Pro) with Remote terminal (SSH) and Remote Display (VNC) access.
+- SOC 2 Type 2 compliant.[^2f]
+- **(Coming soon)** Windows support (Q1 2025). 🚧
 
-[^2a]: https://namespace.so/docs/actions/nscloud-cache-action
 [^2b]: https://namespace.so/docs/features/faster-builds
 [^2c]: https://namespace.so/docs/features/previews
 [^2d]: https://namespace.so/docs/features/kubernetes-previews
 [^2e]: https://namespace.so/docs/features/on-demand-buildkite-agents
+[^2f]: https://trust.namespace.so
 
 ### BuildJet ⭐
 
