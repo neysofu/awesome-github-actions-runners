@@ -123,8 +123,8 @@ Notable features:
 - Docker local registry mirror which caches Docker images and prevents customers from getting rate limited by Docker Hub.[^blacksmith-mirror]
 - SOC2 Type 1 Compliant [^blacksmith-soc2]
 - **3000 free minutes per month**.[^blacksmith-free-minutes]
-- **(Coming soon)** ARM runners. 🚧
-- **(Coming soon)** Workflow insights to help customers break down spending and performance across workflows. 🚧
+- ARM runners.[^blacksmith-arm]
+- Workflow statistics to help customers break down spending and performance across workflows.
 
 [^blacksmith-1line]: https://docs.blacksmith.sh/getting-started/quickstart
 [^blacksmith-storage]: https://docs.blacksmith.sh/runners/config
@@ -133,6 +133,7 @@ Notable features:
 [^blacksmith-wizard]: https://blacksmith.sh/blog/launch-migration-wizard
 [^blacksmith-soc2]: https://blacksmith.sh/blog/blacksmith-is-soc2-type-1-compliant
 [^blacksmith-free-minutes]: https://docs.blacksmith.sh/runners/pricing#free-minutes
+[^blacksmith-arm]: https://docs.blacksmith.sh/runners/config#arm
 
 ### Ubicloud
 
