@@ -19,6 +19,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 		- [Ubicloud](#ubicloud)
 		- [RunsOn](#runson)
 		- [Cirun](#cirun)
+		- [Depot](#depot)
 	- [Honorable mentions](#honorable-mentions)
 	- [Contributing to this list](#contributing-to-this-list)
 
@@ -183,6 +184,25 @@ Notable features:
 [^4a]: https://docs.cirun.io/reference/one-line
 [^4b]: https://docs.cirun.io/reference/yaml#gpu-gpu
 [^4c]: https://docs.cirun.io/reference/yaml#cloud-cloud
+
+### Depot
+
+[Depot](https://depot.dev) accelerates Docker image builds and Github Actions workflows with optimized remote builders and centralized cache. Depot's remote builders now power all [fly.io](https://fly.io/) builds.[^5a]
+
+Pricing [here](https://depot.dev/pricing).
+
+Notable features:
+- **Half the price** of hosted GitHub runners.
+- **3x faster** than hosted GitHub runners.[^5b]
+- Native build support for **macOS (M2)** and **ARM**.[^5c]
+- **Unlimited cache storage**.
+- Per-second billing. No 1 minute minimum.
+- Bring your own GPU support.[^5d]
+
+[^5a]: https://community.fly.io/t/depot-remote-builders-becoming-the-default/21756?u=kylet-depot
+[^5b]: https://depot.dev/products/github-actions
+[^5c]: https://depot.dev/docs/github-actions/runner-types
+[^5d]: https://depot.dev/docs/managed/using-gpus
 
 ## Honorable mentions
 
