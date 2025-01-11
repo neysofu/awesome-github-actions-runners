@@ -131,6 +131,7 @@ Notable features:
 - **3000 free minutes per month**.[^blacksmith-free-minutes]
 - ARM runners.[^blacksmith-arm]
 - Workflow statistics to help customers break down spending and performance across workflows.
+- Unlimited concurrency at no additional cost, allowing customers to shard without worrying about resource provisioning times.
 
 [^blacksmith-1line]: https://docs.blacksmith.sh/getting-started/quickstart
 [^blacksmith-storage]: https://docs.blacksmith.sh/runners/config
