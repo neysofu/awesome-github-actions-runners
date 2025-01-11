@@ -103,8 +103,8 @@ Notable features:
 - Customizable runner, disk, and processor configurations[^warp-customrunners].
 - **Live debug failed jobs over SSH.**[^warp-debug]
 - Support for Windows and macOS runners on M2 Pros.[^warp-runners]
-- Container layer caching, and 10x faster incremental builds.
-- SOC2 Type 2 compliant.
+- Container layer caching, and 10x faster incremental builds[^warp-snapshots].
+- SOC2 Type 2 compliant[^warp-soc2].
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
@@ -113,6 +113,8 @@ Notable features:
 [^warp-byoc]: https://docs.warpbuild.com/byoc
 [^warp-cache]: https://docs.warpbuild.com/cache
 [^warp-customrunners]: https://docs.warpbuild.com/cloud-runners/custom-runners
+[^warp-snapshots]: https://docs.warpbuild.com/snapshot-runners
+[^warp-soc2]: https://www.warpbuild.com/blog/soc2
 
 ### Blacksmith
 
