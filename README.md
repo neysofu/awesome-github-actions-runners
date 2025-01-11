@@ -181,17 +181,17 @@ Notable features:
 
 ### Depot
 
-[Depot](https://depot.dev) accelerates Docker image builds and Github Actions workflows with optimized remote builders and centralized cache. Depot's remote builders now power all fly.io builds.[5a]
+[Depot](https://depot.dev) accelerates Docker image builds and Github Actions workflows with optimized remote builders and centralized cache. Depot's remote builders now power all [fly.io](https://fly.io/) builds.[^5a]
 
-Pricing [here](https://depot.dev/pricing)
+Pricing [here](https://depot.dev/pricing).
 
 Notable features:
 - **Half the price** of hosted GitHub runners.
-- **3x faster** than hosted GitHub runners.[5b]
-- Native build support for **macOS (M2)** and **ARM**.[5c]
+- **3x faster** than hosted GitHub runners.[^5b]
+- Native build support for **macOS (M2)** and **ARM**.[^5c]
 - **Unlimited cache storage**.
 - Per-second billing. No 1 minute minimum.
-- Bring your own GPU support.[5d]
+- Bring your own GPU support.[^5d]
 
 [^5a]: https://community.fly.io/t/depot-remote-builders-becoming-the-default/21756?u=kylet-depot
 [^5b]: https://depot.dev/products/github-actions
