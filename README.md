@@ -113,7 +113,6 @@ Notable features:
 [^warp-byoc]: https://docs.warpbuild.com/byoc
 [^warp-cache]: https://docs.warpbuild.com/cache
 [^warp-customrunners]: https://docs.warpbuild.com/cloud-runners/custom-runners
-[^warp-soc2]: https://docs.warpbuild.com/about/security#soc-2-compliance
 
 ### Blacksmith
 
