@@ -9,19 +9,19 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 ## Table of contents
 
 - [Awesome GitHub Actions runners ⚡🤖](#awesome-github-actions-runners-)
-	- [Table of contents](#table-of-contents)
-	- [List of providers](#list-of-providers)
-		- [Namespace ⭐](#namespace-)
-		- [BuildJet ⭐](#buildjet-)
-		- [Actuated ⭐](#actuated-)
-		- [WarpBuild](#warpbuild)
-		- [Blacksmith](#blacksmith)
-		- [Ubicloud](#ubicloud)
-		- [RunsOn](#runson)
-		- [Cirun](#cirun)
-		- [Depot](#depot)
-	- [Honorable mentions](#honorable-mentions)
-	- [Contributing to this list](#contributing-to-this-list)
+  - [Table of contents](#table-of-contents)
+  - [List of providers](#list-of-providers)
+    - [Namespace ⭐](#namespace-)
+    - [BuildJet ⭐](#buildjet-)
+    - [Actuated ⭐](#actuated-)
+    - [WarpBuild](#warpbuild)
+    - [Blacksmith](#blacksmith)
+    - [Ubicloud](#ubicloud)
+    - [RunsOn](#runson)
+    - [Cirun](#cirun)
+    - [Depot](#depot)
+  - [Honorable mentions](#honorable-mentions)
+  - [Contributing to this list](#contributing-to-this-list)
 
 ## List of providers
 
@@ -32,6 +32,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
 Pricing [here](https://namespace.so/pricing).
 
 Notable features:
+
 - **1-line change to get faster and cheaper builds in most projects.**
 - Up to 250GiB disk storage and terabytes of cache, considerably more than both BuildJet and GitHub official runners.
 - High-performance caching via mounted volumes backed by local storage. This is a separate API from [`actions/cache`](https://github.com/actions/cache), but much faster and more reliable.
@@ -55,9 +56,10 @@ Notable features:
 Pricing [here](https://buildjet.com/for-github-actions/docs/about/pricing).
 
 Notable features:
+
 - **1-line change to get faster and cheaper builds in most projects.**
 - 64GiB disk storage[^1a] and 20GiB free cache per repository[^1b] via [`buildjet/cache`](https://github.com/BuildJet/cache) (as opposed to 16GiB disk storage and 10GiB free cache per repository in GitHub official runners).
-- ARM support.[^1c] 
+- ARM support.[^1c]
 - Built-in support for [`Swatinem/rust-cache`](https://github.com/Swatinem/rust-cache) via `backend: buildjet`.
 - In some cases cache download and upload speeds have been reported to be quite bad, slowing down builds[^buildjet-bad-cache]. ⚠️
 - **(Coming soon)** SOC2 compliance.[^1d] 🚧
@@ -75,6 +77,7 @@ Notable features:
 Pricing [here](https://actuated.dev/pricing).
 
 Notable features:
+
 - Native ARM support.[^3a]
 - Runs directly within your own datacenter, which is useful if you work with large container images or datasets.
 - Live debug stuck jobs over SSH.[^3b]
@@ -87,22 +90,31 @@ Notable features:
 
 ### WarpBuild
 
-[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions, made by the creators of [Argonaut](https://www.argonaut.dev/).
+[WarpBuild](https://www.warpbuild.com/) offers high performance runners for GitHub Actions with support for Linux, Windows, and macOS. This is available as a managed service, but you can also run it on your own AWS, GCP, or Azure cloud infrastructure.
 
 Pricing [here](https://www.warpbuild.com/pricing).
 
 Notable features:
-- 1-line change to get faster and cheaper builds in most projects.[^warp-1click]
-- Support for x86-64 and ARM runners with unlimited concurrency.
+
+- 50-90% cheaper GitHub Actions runners with a 1-line chang.[^warp-pricing]
+- Support for x86-64 and ARM runners with free unlimited concurrency.
+- 150GB disk storage and unlimited fast caches and `setup-*` actions[^warp-cache].
+- Bring Your Own Cloud to run workflows in your AWS, GCP, or Azure account and region[^warp-byoc].
+- Customizable runner, disk, and processor configurations[^warp-customrunners].
 - **Live debug failed jobs over SSH.**[^warp-debug]
-- Discounts for open-source projects and young startups, and referral programs to get extra minutes.[^warp-pricing]
-- Support for macOS runners on M2 Pros.[^warp-runners]
-- **(Coming soon)** Automated container layer caching and AI powered analytics (~Q1 2024). 🚧
+- Support for Windows and macOS runners on M2 Pros.[^warp-runners]
+- Container layer caching, and 10x faster incremental builds[^warp-snapshots].
+- SOC2 Type 2 compliant[^warp-soc2].
 
 [^warp-1click]: https://docs.warpbuild.com/quickstart
 [^warp-debug]: https://docs.warpbuild.com/tools/action-debugger
 [^warp-pricing]: https://www.warpbuild.com/pricing
 [^warp-runners]: https://docs.warpbuild.com/runners#macos-m2-pro-on-arm64
+[^warp-byoc]: https://docs.warpbuild.com/byoc
+[^warp-cache]: https://docs.warpbuild.com/cache
+[^warp-customrunners]: https://docs.warpbuild.com/cloud-runners/custom-runners
+[^warp-snapshots]: https://docs.warpbuild.com/snapshot-runners
+[^warp-soc2]: https://www.warpbuild.com/blog/soc2
 
 ### Blacksmith
 
@@ -111,6 +123,7 @@ Notable features:
 Pricing [here](https://docs.blacksmith.sh/runners/pricing).
 
 Notable features:
+
 - 1-line change to get faster and cheaper builds in most projects, as well as a "**Migration Wizard**" which can automatically migrate multiple workflow files at once.[^blacksmith-1line][^blacksmith-wizard]
 - 64GiB disk storage[^blacksmith-storage] and 25GiB high-speed cache per repository via [`useblacksmith/cache@v5`](https://github.com/useblacksmith/cache).
 - Docker local registry mirror which caches Docker images and prevents customers from getting rate limited by Docker Hub.[^blacksmith-mirror]
@@ -136,6 +149,7 @@ Notable features:
 Pricing [here](https://www.ubicloud.com/docs/github-actions-integration/price-performance).
 
 Notable features:
+
 - **1-line change to get faster and cheaper builds in most projects.**[^ubicloud-cheap]
 - **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
 - **1250 free minutes per month.**[^5a]
@@ -154,6 +168,7 @@ Notable features:
 Pricing [here](https://runs-on.com/).
 
 Notable features:
+
 - **1-line change to get faster and cheaper builds in most projects.**
 - Easy install with a CloudFormation template (video guide available).
 - Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending.
@@ -168,6 +183,7 @@ Notable features:
 Pricing [here](https://cirun.io/#pricing).
 
 Notable features:
+
 - **1-line change to get faster and cheaper builds in most projects.**[^4a]
 - **Free for public repositories!**
 - Cheap, flat-rate pricing based on the number of private repositories you run Cirun on.
@@ -187,6 +203,7 @@ Notable features:
 Pricing [here](https://depot.dev/pricing).
 
 Notable features:
+
 - **Half the price** of hosted GitHub runners.
 - **3x faster** than hosted GitHub runners.[^5b]
 - Native build support for **macOS (M2)** and **ARM**.[^5c]
