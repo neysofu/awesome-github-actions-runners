@@ -20,6 +20,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [RunsOn](#runson)
     - [Cirun](#cirun)
     - [Depot](#depot)
+    - [Cirrus Runners](#cirrus-runners)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -215,6 +216,22 @@ Notable features:
 [^5b]: https://depot.dev/products/github-actions
 [^5c]: https://depot.dev/docs/github-actions/runner-types
 [^5d]: https://depot.dev/docs/managed/using-gpus
+
+### Cirrus Runners
+
+[Cirrus Runners](https://cirrus-runners.app/) offers managed large runners (macOS M4 Pro, Linux x86/Arm/GPU) at a fixed price per month. Unlimited minutes with a limited concurrency.
+
+Pricing [here](https://cirrus-runners.app/pricing/).
+
+Notable features:
+
+- Cirrus Labs develops their own virtualization solutions and host their own hardware off traditional cloud providers.
+- **Fixed price** of hosted GitHub runners. No hidden fees.
+- **2x faster** than hosted GitHub runners.[^6a]
+- Additional caching at no extra cost.
+- SOC2 Type 1 compliant.
+
+[^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
 
 ## Honorable mentions
 
