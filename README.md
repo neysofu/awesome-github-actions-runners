@@ -164,18 +164,19 @@ Notable features:
 
 ### RunsOn
 
-[RunsOn](https://runs-on.com/) is a self-hosted, open-source GitHub Actions runner tool that runs on your own AWS account. It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
+[RunsOn](https://runs-on.com/) is a fully self-hosted GitHub Actions runner tool that you install in your private AWS account. No external orchestrator involved.
 
-Pricing [here](https://runs-on.com/).
+Pricing [here](https://runs-on.com/pricing/). It's **free for non-commercial usage**, and comes at a €300 flat yearly fee for commercial projects.
 
 Notable features:
 
-- **1-line change to get faster and cheaper builds in most projects.**
-- Easy install with a CloudFormation template (video guide available).
-- Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending.
-- ARM, GPU, and custom base image support.
-- Up to 256 vCPUs per runner, by far the most of any provider, and customizable disk sizes and instance types.
-- Although actively maintained and developed as of Feb. '24, it's built by just one developer ([Cyril Rohr](https://runs-on.com/about/)), so long-term maintenance is a concern. ⚠️
+- **1-line change to get at least 30% faster and 10x cheaper builds in most projects.**
+- Easy install and upgrades with a CloudFormation template (video guide available).
+- Cheap, flat-rate pricing with an easy-to-use [pricing calculator](https://runs-on.com/calculator/) that you can use to calculate your spending. Scales to zero when no jobs pending.
+- Native runners for [arm64 and x64 Linux](https://runs-on.com/runners/linux/), [GPU](https://runs-on.con/runners/gpu/), [Windows](https://runs-on.con/runners/windows/) and [custom base image](https://runs-on.com/configuration/custom-images/) support.
+- [Magic Cache](https://runs-on.com/caching/magic-cache/), for unlimited, 5x faster dependency and docker layer caching.
+- Access to the full AWS inventory of instance types, with up to 256 vCPUs per runner. Runners are [fully customizable at runtime](https://runs-on.com/configuration/job-labels/) with job labels (instance type, static IPs support, spot or on-demand, disk size, etc.).
+- Development happens [in the open](https://github.com/runs-on/runs-on) with a growing community. Runs more than 250k jobs per day across all users. Sponsorship license available for full source code access and dedicated support.
 
 ### Cirun
 
