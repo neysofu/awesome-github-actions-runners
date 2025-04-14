@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Sprinters](#sprinters)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -232,6 +233,21 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Sprinters
+
+[Sprinters](https://sprinters.sh/) provides high-performance GitHub Actions runners with a focus on speed and efficiency.
+
+Pricing [here](https://sprinters.sh/pricing).
+
+Notable features:
+
+- **1-line change to get faster and more cost-effective builds.**
+- Advanced caching mechanisms to speed up workflows.
+- Support for ARM and x86 architectures.
+- Easy-to-use web-based dashboard for monitoring and management.
+- SOC2 Type 2 compliant.
+- **(Coming soon)** Integration with popular CI/CD tools. 🚧
 
 ## Honorable mentions
 
