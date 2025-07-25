@@ -97,7 +97,7 @@ Pricing [here](https://www.warpbuild.com/pricing).
 
 Notable features:
 
-- 50-90% cheaper GitHub Actions runners with a 1-line chang.[^warp-pricing]
+- 50-90% cheaper GitHub Actions runners with a 1-line change.[^warp-pricing]
 - Support for x86-64 and ARM runners with free unlimited concurrency.
 - 150GB disk storage and unlimited fast caches and `setup-*` actions[^warp-cache].
 - Bring Your Own Cloud to run workflows in your AWS, GCP, or Azure account and region[^warp-byoc].
