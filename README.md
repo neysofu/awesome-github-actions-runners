@@ -42,13 +42,14 @@ Notable features:
 - Supports ephemeral previews running on runners as well as separate instances, based on Docker[^2c] or Kubernetes[^2d].
 - macOS runners on Apple Silicon (M4 Pro and M2 Pro) with Remote terminal (SSH) and Remote Display (VNC) access.
 - SOC 2 Type 2 compliant.[^2f]
-- **(Coming soon)** Windows support (Q1 2025). 🚧
+- Windows support (early access).[^2g]
 
 [^2b]: https://namespace.so/docs/features/faster-builds
 [^2c]: https://namespace.so/docs/features/previews
 [^2d]: https://namespace.so/docs/features/kubernetes-previews
 [^2e]: https://namespace.so/docs/features/on-demand-buildkite-agents
 [^2f]: https://trust.namespace.so
+[^2g]: https://namespace.so/docs/architecture/compute#windows
 
 ### BuildJet ⭐
 
