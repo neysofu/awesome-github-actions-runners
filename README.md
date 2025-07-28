@@ -154,14 +154,21 @@ Notable features:
 
 - **1-line change to get faster and cheaper builds in most projects.**[^ubicloud-cheap]
 - **By far one of the cheapest providers** at about ~10x cheaper than official GH Actions runners.[^ubicloud-cheap]
-- **1250 free minutes per month.**[^5a]
-- Native ARM support.[^5b]
-- Open source under the GNU AGPL v3.0 license.[^5c]
+- 1250 free minutes per month.[^ubicloud-free-minutes]
+- Native ARM and GPU support.[^ubicloud-arm] [^ubicloud-gpu]
+- Transparent Cache offers 30GB of free, faster GitHub Actions cache with no configuration needed. [^ubicloud-cache]
+- Live debug jobs over SSH. [^ubicloud-debug]
+- Open source under the GNU AGPL v3.0 license.[^ubicloud-open-source]
+- SOC2 Type 2 Compliant [^ubicloud-soc2]
 
 [^ubicloud-cheap]: https://www.ubicloud.com/docs/github-actions-integration/price-performance
-[^5a]: https://www.ubicloud.com/use-cases/github-actions
-[^5b]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
-[^5c]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
+[^ubicloud-free-minutes]: https://www.ubicloud.com/use-cases/github-actions
+[^ubicloud-arm]: https://www.ubicloud.com/blog/ubicloud-hosted-arm-runners-100x-better-price-performance
+[^ubicloud-gpu]: https://www.ubicloud.com/docs/github-actions-integration/use-gpu-runners
+[^ubicloud-cache]: https://www.ubicloud.com/docs/github-actions-integration/ubicloud-cache#ubicloud-transparent-cache
+[^ubicloud-debug]: https://www.ubicloud.com/docs/github-actions-integration/debug-workflow-with-ssh
+[^ubicloud-open-source]: https://github.com/ubicloud/ubicloud/blob/main/routes/web/webhook/github.rb
+[^ubicloud-soc2]: https://www.ubicloud.com/docs/security/soc2
 
 ### RunsOn
 
