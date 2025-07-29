@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Sprinters](#sprinters)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,27 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Sprinters
+
+[Sprinters](https://sprinters.sh/) gives you fast, ephemeral runners on your own AWS account, at a fraction of the cost.
+
+Pricing [here](https://sprinters.sh/#pricing).
+
+Notable features:
+
+- **1-line change to get faster and cheaper builds.**[^7a]
+- **10x cheaper than GitHub-hosted runners** with simple, transparent and unbeatable per vCPU-minute pricing.
+- Easy 2-step setup.[^7b]
+- Ephemeral runners on EC2 with **job start times under 20s**.
+- Up to 192 vCPUs, 768 GB RAM and 16 TB storage per runner, with customizable disk sizes and instance types.
+- x64 and arm64 support.
+- Minimal and full (identical to GitHub) images.
+- Scales to zero.
+- Unlimited concurrency.
+
+[^7a]: https://sprinters.sh/docs/label
+[^7b]: https://sprinters.sh/docs/setup
 
 ## Honorable mentions
 
