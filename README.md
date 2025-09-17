@@ -220,19 +220,22 @@ Notable features:
 
 ### Cirrus Runners
 
-[Cirrus Runners](https://cirrus-runners.app/) offers managed large runners (macOS M4 Pro, Linux x86/Arm/GPU) at a fixed price per month. Unlimited minutes with a limited concurrency.
+[Cirrus Runners](https://cirrus-runners.app/) offers managed runners (macOS M4 Pro, Linux x86/Arm/GPU) with high-frequency CPUs at a fixed price per month. Unlimited minutes with a limited concurrency.
 
 Pricing [here](https://cirrus-runners.app/pricing/).
 
 Notable features:
 
 - Cirrus Labs develops their own virtualization solutions and host their own hardware off traditional cloud providers.
+- #1 performance-rated provider according to an independent benchmark by RunsOn. [^6b]
 - **Fixed price** of hosted GitHub runners. No hidden fees.
+- Targets enterprises with significant monthly spendings to cut bills by 5-10 times.
 - **2x faster** than hosted GitHub runners.[^6a]
 - Additional caching at no extra cost.
-- SOC2 Type 1 compliant.
+- SOC2 Type 2 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+[^6a]: https://runs-on.com/benchmarks/github-actions-cpu-performance/#github-actions-cpu-speed-and-queuing-times
 
 ## Honorable mentions
 
