@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Tenki](#tenki)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,32 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Tenki
+
+[Tenki](https://tenki.cloud/) "Born from the same frustrations you face daily": Tenki delivers faster performance at a fraction of the cost.
+
+Pricing [here](https://www.tenki.cloud/pricing).
+
+Notable features:
+
+- **1-line change to unlock faster and cheaper workflows.**
+- 3-steps and less than 2 minutes onboarding. [^tenki-get-started]
+- **Among the most cost-effective options, 90% cheaper than GitHub Actions runners.[^tenki-means-cheaper]
+- **On average, 30% faster than GitHub Actions runners.[^tenki-means-performance]
+- **12500 free minutes per month**.[^tenki-free-credits]
+- Custom feature called Autoscale, designed to scale seamlessly without the burden of resource maintenance. [^tenki-autoscale]
+- uses Ephemeral VMs, ensuring every job runs in a clean, temporary environment. [^tenki-roles-available]
+- Support for x64 runners with free unlimited concurrency.[^tenki-roles-available]
+- Role-Based Access Control (RBAC) support for larger teams.
+- **(Coming soon)** macOS runners. 🚧
+
+[^tenki-get-started]: https://www.tenki.cloud/docs/get-started
+[^tenki-means-cheaper]: https://www.tenki.cloud/docs/why-tenki#tenki-means-cheaper
+[^tenki-means-performance]: https://www.tenki.cloud/docs/why-tenki#tenki-means-performance
+[^tenki-autoscale]: https://www.tenki.cloud/docs/runner-offering#autoscale-runners-preferred-option
+[^tenki-free-credits]: https://www.tenki.cloud/docs/runner-billing
+[^tenki-roles-available]: https://www.tenki.cloud/docs/access/roles-perms
 
 ## Honorable mentions
 
