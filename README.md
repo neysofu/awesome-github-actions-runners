@@ -15,6 +15,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [BuildJet ⭐](#buildjet-)
     - [Actuated ⭐](#actuated-)
     - [WarpBuild](#warpbuild)
+    - [RunMyJob](#runmyjob)
     - [Blacksmith](#blacksmith)
     - [Ubicloud](#ubicloud)
     - [RunsOn](#runson)
@@ -117,6 +118,16 @@ Notable features:
 [^warp-customrunners]: https://docs.warpbuild.com/cloud-runners/custom-runners
 [^warp-snapshots]: https://docs.warpbuild.com/snapshot-runners
 [^warp-soc2]: https://www.warpbuild.com/blog/soc2
+
+### RunMyJob
+[RunMyJob](https://runmyjob.io/) Run GitHub Actions and GitLab CI pipelines smarter. Stop wasting money on idle runners and jobs — our Spike Instances scale to fit your workload in real time.
+
+Notable features:
+- **GDPR-compliant, EU-based** runners for privacy-conscious teams.
+- **Fair, load-based billing**: pay only for the CPU and memory actually utilized by your jobs, not for idle time.
+- **High performance**: Each job runs in its own clean, isolated virtual machine with generous resource limits (up to 48 vCPU and 96 GB RAM).
+- **Multi-platform support**: Works seamlessly with both GitHub Actions and GitLab CI.
+- **Fast startup**: Optimized for low latency and quick job initiation.
 
 ### Blacksmith
 
