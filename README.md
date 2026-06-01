@@ -16,6 +16,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Actuated ⭐](#actuated-)
     - [WarpBuild](#warpbuild)
     - [Blacksmith](#blacksmith)
+    - [Monk CI](#monk-ci)
     - [Ubicloud](#ubicloud)
     - [RunsOn](#runson)
     - [Cirun](#cirun)
@@ -143,6 +144,27 @@ Notable features:
 [^blacksmith-soc2]: https://www.blacksmith.sh/blog/blacksmith-achieves-soc-2-type-2-compliance
 [^blacksmith-free-minutes]: https://docs.blacksmith.sh/runners/pricing#free-minutes
 [^blacksmith-arm]: https://docs.blacksmith.sh/runners/config#arm
+
+### Monk CI
+
+[Monk CI](https://monkci.com) is a managed, AI-native drop-in replacement for GitHub-hosted runners. Beyond faster compute, it ships an AI agent that reads failed-build logs and automatically opens a PR with a suggested fix.
+
+Pricing [here](https://monkci.com/pricing).
+
+Notable features:
+
+- **1-line change to get faster and cheaper builds in most projects** — swap `runs-on: ubuntu-latest` for `runs-on: monkci-runners-24.04-4`, with a 30-second rollback.[^monk-1line]
+- **40x faster Docker builds** via remote layer synchronization at 20 Gbps, plus 4x faster Actions cache and 3x faster compute throughput.[^monk-docker]
+- **AI auto-remediation**: isolates pipeline errors and opens a fix PR automatically. No other provider on this list does this (in active development; fix accuracy varies by error complexity).[^monk-ai]
+- Up to 32 vCPUs, persistent SSD disks, fully managed ephemeral runners.
+- Pay-as-you-go at $0.002/vCPU-min ($0.008/min for a 4 vCPU runner); **5000 free minutes per month**, no seat fees, no credit card.[^monk-pricing]
+- SOC 2 Type 2 compliant.
+- Requires a GitHub Organization (no personal accounts).
+
+[^monk-1line]: https://monkci.com/docs
+[^monk-docker]: https://monkci.com/features
+[^monk-ai]: https://monkci.com/features
+[^monk-pricing]: https://monkci.com/pricing
 
 ### Ubicloud
 
