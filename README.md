@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Avrea](#avrea)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,36 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Avrea
+
+[Avrea](https://avrea.com/) provides high-performance, drop-in runners for GitHub Actions with deep observability into every job. Linux x86 runs on dedicated AMD EPYC bare metal; macOS and ARM Linux run on Apple M5 Max.[^avrea-m5] Founded by the founders of Aiven and Nosto.
+
+Pricing [here](https://avrea.com/pricing).
+
+Notable features:
+
+- **1-line change to get faster and cheaper builds in most projects.**[^avrea-1line]
+- **3x faster builds on hardware alone, up to 145x with cache hits.**[^avrea-speed][^avrea-145x]
+- Linux x86, Linux ARM, macOS (Apple M5 Max), and Windows runners.[^avrea-runners]
+- Co-located caching on the runner hardware: a drop-in [`actions/cache`](https://github.com/actions/cache) replacement (up to 6x faster) plus build and package caches (Docker, Bazel, Gradle, Turborepo, sccache, npm, pip, and more).[^avrea-cache][^avrea-6x]
+- CPU and memory metrics per job step, searchable logs, and SSH into live jobs.[^avrea-observability]
+- Every job runs in a clean ephemeral VM.[^avrea-runners]
+- AI quality features (beta): failing test auto-fix, pipeline optimization, dependency upgrades.[^avrea-quality]
+- **3000 free minutes per month**, pay-as-you-go from $0.002/min.[^avrea-pricing]
+- ISO 27001 certified and SOC 2 Type 2 attested.[^avrea-security]
+
+[^avrea-m5]: https://avrea.com/blog/m5-max-runners-macos-arm-linux-ci-on-apple-silicon
+[^avrea-1line]: https://docs.avrea.com/getting-started/
+[^avrea-speed]: https://avrea.com/speed
+[^avrea-145x]: https://avrea.com/blog/nextjs-turborepo-ci-benchmark
+[^avrea-runners]: https://docs.avrea.com/runners/
+[^avrea-cache]: https://docs.avrea.com/cache/overview/
+[^avrea-6x]: https://avrea.com/blog/how-we-made-github-actions-cache-up-to-6x-faster
+[^avrea-observability]: https://avrea.com/observability
+[^avrea-quality]: https://avrea.com/quality
+[^avrea-pricing]: https://avrea.com/pricing
+[^avrea-security]: https://docs.avrea.com/security/
 
 ## Honorable mentions
 
