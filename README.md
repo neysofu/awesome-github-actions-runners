@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Tenki](#tenki)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,33 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Tenki
+[Tenki](https://tenki.cloud/) "Born from the same frustrations you face daily": Tenki delivers faster performance at a fraction of the cost.
+Pricing [here](https://www.tenki.cloud/pricing).
+Notable features:
+- **1-line change to unlock faster and cheaper workflows.**
+- 3-steps and less than 2 minutes onboarding. [^tenki-get-started]
+- **Among the most cost-effective options, up to 60% cheaper than GitHub Actions runners.**[^tenki-means-cheaper]
+- **On average, 30% faster than GitHub Actions runners** (up to 99% faster on Go builds).[^tenki-means-performance]
+- **$10 in free credit every month** (about 2,500 compute minutes at the standard 2 vCPU / 4 GB rate), no credit card required.[^tenki-free-credits]
+- Custom feature called Autoscale, designed to scale seamlessly without the burden of resource maintenance. [^tenki-autoscale]
+- uses Ephemeral VMs, ensuring every job runs in a clean, temporary environment. [^tenki-roles-available]
+- Support for x64 runners with generous per-plan concurrency (5 concurrent jobs on Starter, 50 on Team).[^tenki-roles-available]
+- Role-Based Access Control (RBAC) support for larger teams.
+- **macOS runners** on Apple Silicon (M4 Pro), now available. 🍏[^tenki-macos]
+- **Tenki Code Reviewer**: an AI agent that indexes your entire repository and reviews every pull request for bugs, security issues, and code quality, posting comments straight into GitHub.[^tenki-code-reviewer]
+- **(New) Tenki Sandbox**: disposable Linux microVMs purpose-built for AI coding agents (works with Claude Code and Codex), with sub-2s provisioning plus Go, TypeScript, and Python SDKs.[^tenki-sandbox]
+
+[^tenki-get-started]: https://tenki.cloud/docs/runners/quick-start-runners
+[^tenki-means-cheaper]: https://tenki.cloud/pricing
+[^tenki-means-performance]: https://tenki.cloud/docs/runners/benchmarks
+[^tenki-autoscale]: https://tenki.cloud/docs/runners/limits-and-concurrency
+[^tenki-free-credits]: https://tenki.cloud/docs/account/free-credits
+[^tenki-roles-available]: https://tenki.cloud/docs/account/roles-perms
+[^tenki-macos]: https://tenki.cloud/docs/runners/macos-runners
+[^tenki-code-reviewer]: https://tenki.cloud/products/code-reviewer
+[^tenki-sandbox]: https://tenki.cloud/products/sandbox
 
 ## Honorable mentions
 
