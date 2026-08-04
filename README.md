@@ -234,6 +234,28 @@ Notable features:
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
 
+### Bitrise Build Hub
+
+[Bitrise Build Hub](https://bitrise.io/platform/build-hub) gives your team fully managed, high-performance VMs to run your GitHub Actions builds whether you’re shipping mobile apps, web applications, and services. Choose from Mac and Linux portfolios with everything preinstalled, then get building in minutes using your existing workflows.
+
+Pricing [here](https://bitrise.io/pricing#build-hub).
+
+- Build Hub's M4 Pro Macs (14 vCPU, 54GB RAM) run 54% faster than GitHub's M2 Pro runners. Linux machines run 31% faster on Android builds. [^2]
+- New Xcode versions and betas within 24 hours of release. [^1]
+- iOS simulators, Android emulators, Fastlane, CocoaPods, Gradle preinstalled.[^1]
+- Linux from 4 to 48 vCPU standard, up to 96 custom. [^1]
+- Pre-warmed VMs, no queue. [^1]
+- Co-located cache (Xcode, Gradle, Bazel) up to 90% faster builds, 100GB free vs GitHub's 10GB. [^1] [^2]
+- 100GB free co-located cache vs GitHub's 10GB. [^2]
+- Change the runs-on label, everything else stays the same. [^3]
+- US and EU data centers. [^1]
+- SOC 2, PCI DSS, 99.9% uptime SLA. [^1]
+
+[^1]: https://bitrise.io/platform/build-hub 
+[^2]: https://bitrise.io/blog/post/build-hub-github-actions-macos-runner-alternative 
+[^3]: https://docs.bitrise.io/en/bitrise-build-hub/build-hub-for-github-actions/configuring-build-hub-for-github-actions 
+
+
 ## Honorable mentions
 
 If you're interested in going down the self-hosted runner route, make sure to check out the tooling listed in [`jonico/awesome-runners`](https://github.com/jonico/awesome-runners)!
