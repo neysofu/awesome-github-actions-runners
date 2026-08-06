@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Latchkey](#latchkey)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,24 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Latchkey
+
+[Latchkey](https://latchkey.dev) offers managed ephemeral Linux runners for GitHub Actions, with automatic diagnosis and repair of failing steps at runtime.
+
+Pricing [here](https://latchkey.dev/pricing).
+
+Notable features:
+
+- **1-line change to get faster and cheaper builds in most projects.**
+- 2 to 16 vCPUs at $0.0025 to $0.0200 per minute, Ubuntu 24.04 x86_64, 100GB disk (200GB on the largest size).
+- **Repairs failing steps mid-run** and retries them: registry timeouts, Docker rate limits, OOM kills, full disks, missing packages. Compile errors and failing tests are never retried.[^lk-heal]
+- **2,000 to 6,000 free minutes per month**, depending on plan.
+- Custom runner images built from an AI scan of the repository.[^lk-scan]
+- Dependency and Docker layer caching via `latchkey-dev/cache-action` and `latchkey-dev/docker-cache-action`.
+
+[^lk-heal]: https://latchkey.dev/documentation/self-healing
+[^lk-scan]: https://latchkey.dev/documentation/custom-runners
 
 ## Honorable mentions
 
