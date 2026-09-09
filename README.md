@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Manzanita](#manzanita)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,19 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Manzanita
+
+[Manzanita](https://manzanita.run/) offers flat-rate Apple Silicon runners for macOS GitHub Actions. Every job runs on a fresh, isolated M4 Pro macOS VM with Xcode preinstalled; migrating is a one-line `runs-on` change.
+
+Pricing [here](https://manzanita.run/#pricing).
+
+Notable features:
+
+- **Flat monthly price** per concurrent runner. No per-minute metering, no usage bill.
+- A clean **M4 Pro** macOS VM per job — no state is shared between jobs — assigned in about five seconds.
+- Xcode and the macOS image are digest-pinned and published in a public [changelog](https://manzanita.run/changelog/).
+- Drop-in: no workflow changes beyond the runner label.
 
 ## Honorable mentions
 
