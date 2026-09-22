@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [CRACI](#craci)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,22 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### CRACI
+
+[CRACI](https://craci.com/features/ci-cd) runs GitHub Actions jobs on managed Linux runners in Europe and records the dependencies each build pulls in as a CycloneDX or SPDX SBOM for that job. Setup is `runs-on: craci`.
+
+Pricing [here](https://craci.com/pricing).
+
+Notable features:
+
+- About **2x faster** than hosted GitHub runners, from faster hardware, shorter queues and caching.
+- Native **x86-64** and **ARM64**, at the same rate.
+- Per-second billing.
+- Each job runs in its own isolated VM.
+- **SBOM per job**, recorded while the build runs, with vulnerability tracking.
+- **Egress policy** enforced at the runner.
+- Container layer caching.
 
 ## Honorable mentions
 
