@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Vitko Runners](#vitko-runners)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,23 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Vitko Runners
+
+[Vitko Runners](https://runners.vitko.inc/) is a managed GitHub Actions runner service, currently in private beta. Each job runs in a fresh VM.
+
+Pricing [here](https://runners.vitko.inc/about/).
+
+Notable features:
+
+- **1-line change** (`runs-on`) to move a job over.
+- $0.002 per minute for up to 2 vCPU and 8 GB, billed per second, with 2,000 free minutes a month.[^vitko-a]
+- Optional warm starts and one-step test splitting.[^vitko-a]
+- A hard monthly spend limit.
+- Ubuntu 24.04 on x64 only, private repositories only, US region; no Arm, Windows, macOS or GPU yet. ⚠️
+- Private beta: join the waitlist on the site.
+
+[^vitko-a]: https://runners.vitko.inc/about/
 
 ## Honorable mentions
 
