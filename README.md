@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [FFxF](#ffxf)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,19 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### FFxF
+
+[FFxF](https://ffxf.net/github-runners) is a small Canadian cloud provider that also runs GitHub Actions jobs on its own servers in Montréal. You install a GitHub App and change `runs-on`. Each job gets a new VM built from an image that tracks GitHub's `ubuntu-24.04`, and the VM is deleted when the job ends. The service is in beta.
+
+Pricing [here](https://ffxf.net/github-runners).
+
+Notable features:
+
+- 0.004 CAD (about 0.003 USD) per minute on 2 vCPU, roughly half of GitHub's price. Billing starts when GitHub reports the job as started, so boot time isn't charged.
+- 500 free minutes per month once the account has made a payment.
+- `actions/cache`, the `setup-*` caches and `buildx` with `type=gha` are stored in Montréal with no workflow change. There is also a Docker layer cache per repository.
+- 2, 4 and 8 vCPU sizes. Linux x64 and private repositories only for now.
 
 ## Honorable mentions
 
