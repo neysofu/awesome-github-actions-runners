@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Runloft](#runloft)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,27 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Runloft
+
+[Runloft](https://runloft.dev/) provides managed Linux runners for GitHub Actions, built with AI agent workflows (Claude Code, Codex, Copilot coding agent) in mind as well as regular CI. Every job runs in its own Firecracker microVM that is discarded when the job ends. Works on personal accounts as well as organizations.
+
+Pricing [here](https://runloft.dev/pricing/).
+
+Notable features:
+
+- **1-line change to `runs-on:`**, plus a migration wizard in the dashboard that opens a pull request with the label changes.
+- **Per-second billing** from $0.003/minute for 2 vCPU, with no one-minute rounding.[^runloft-billing]
+- **3000 free minutes per month** per account.[^runloft-pricing]
+- 200 concurrent jobs per account by default, without a plan upgrade.[^runloft-agents]
+- Prepaid credits with a monthly spend cap and alert emails per account.[^runloft-billing]
+- Compatible with `actions/cache` and the `setup-*` actions' built-in caching.[^runloft-caching]
+- Linux x64 only for now (2 and 4 vCPU); larger sizes, arm64, Windows and macOS are on request. ⚠️
+
+[^runloft-pricing]: https://runloft.dev/pricing/
+[^runloft-billing]: https://runloft.dev/docs/billing/
+[^runloft-agents]: https://runloft.dev/docs/agents/
+[^runloft-caching]: https://runloft.dev/docs/caching/
 
 ## Honorable mentions
 
