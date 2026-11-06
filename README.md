@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Sengi](#sengi)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,27 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Sengi
+
+[Sengi](https://sengi.run) provides managed Linux x64 runners for GitHub Actions in two classes: Basic for the lowest minute rate, and Premium for faster builds.
+
+Pricing [here](https://sengi.run/#pricing).
+
+Notable features:
+
+- **1-line change**: replace `runs-on: ubuntu-latest` with `runs-on: sengi-basic-2-ubuntu-2404`. Workflows, secrets and logs stay in GitHub.
+- **Basic from $0.001/min** for 2 vCPU / 8 GB, one-sixth of GitHub's $0.006 for the same size. 4 vCPU / 16 GB is $0.002/min and 8 vCPU / 32 GB is $0.004/min.[^7a]
+- **3,000 free Basic minutes every month, no card required.**[^7b]
+- Premium class, from $0.003/min, builds nearly twice as fast as GitHub's runners.[^7c]
+- Per-minute billing with no subscription or base fee. Boot and teardown are never billed.
+- `actions/cache`, the setup actions' caches and Docker layer caching (`type=gha`) work unchanged, at no extra charge.
+- A fresh VM for every job.
+- Linux x64 (Ubuntu 24.04) only: no macOS, Windows or ARM runners.
+
+[^7a]: https://sengi.run/docs/runner-sizes
+[^7b]: https://sengi.run/docs/billing
+[^7c]: https://sengi.run/premium
 
 ## Honorable mentions
 
