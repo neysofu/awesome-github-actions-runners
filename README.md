@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Skipbox](#skipbox)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,27 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Skipbox
+
+[Skipbox](https://skipbox.dev/?ref=list-awesome-github-actions-runners) gives each organization or personal account its own VM for GitHub Actions jobs, kept between jobs, at a flat monthly price with unlimited minutes. For private repositories.
+
+Pricing [here](https://docs.skipbox.dev/plans).
+
+Notable features:
+
+- **Flat monthly price** per plan (4, 8 or 16 vCPU), unlimited minutes, no usage charges.[^skipbox-plans]
+- Your own machine is kept between jobs, so Docker images, build cache and package caches stay on its disk without cache actions. The runner's credentials and the work directory are wiped after each job.[^skipbox-isolation]
+- Pull requests from forks and jobs that arrive while your machines are busy run on a fresh VM, deleted after the job. "Clean every job" does that for every job.[^skipbox-isolation]
+- Works on **personal accounts** as well as organizations, through a second GitHub App.[^skipbox-permissions]
+- 1-line change (`runs-on: skipbox`). Linux x64 (Ubuntu 24.04) only: no Arm, macOS or Windows.[^skipbox-labels]
+- 7-day free trial without a card.[^skipbox-trial]
+
+[^skipbox-plans]: https://docs.skipbox.dev/plans
+[^skipbox-isolation]: https://docs.skipbox.dev/isolation
+[^skipbox-permissions]: https://docs.skipbox.dev/permissions
+[^skipbox-labels]: https://docs.skipbox.dev/labels
+[^skipbox-trial]: https://docs.skipbox.dev/trial
 
 ## Honorable mentions
 
