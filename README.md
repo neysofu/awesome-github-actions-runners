@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Codemany](#codemany)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,26 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Codemany
+
+[Codemany](https://codemany.com/) turns Macs and Linux machines you own into self-hosted GitHub Actions runners. It is a good fit if you already have hardware, like a Mac mini for Xcode builds.
+
+Pricing [here](https://codemany.com/pricing).
+
+Notable features:
+
+- **1-line change** to the `runs-on:` label.
+- A fresh single-use runner for every job, with the workspace wiped after it.[^7a]
+- Optional fresh VM per job on Linux (KVM).[^7b]
+- Mac app for Apple Silicon Macs; no Windows and no Intel Macs.[^7c]
+- Flat price: $20/month for 2 machines, 14 days free with no card.
+- Public benchmark with every run linked.[^7d]
+
+[^7a]: https://codemany.com/features/single-use-runners
+[^7b]: https://codemany.com/features/vm-per-job
+[^7c]: https://codemany.com/features/mac-runners
+[^7d]: https://codemany.com/benchmarks
 
 ## Honorable mentions
 
