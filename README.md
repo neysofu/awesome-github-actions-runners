@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [runners.io](#runnersio)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -55,6 +56,8 @@ Notable features:
 
 [BuildJet](https://buildjet.com/for-github-actions/docs) offers managed performance runners for GitHub Actions.
 
+> **Shut down.** BuildJet announced on 2026-02-06 that it was shutting down, and its runners stopped running jobs on 2026-03-31.[^buildjet-shutdown]
+
 Pricing [here](https://buildjet.com/for-github-actions/docs/about/pricing).
 
 Notable features:
@@ -71,6 +74,7 @@ Notable features:
 [^1c]: https://buildjet.com/for-github-actions/docs/guides/migrating-to-arm
 [^1d]: https://buildjet.com/for-github-actions/docs/about/security#is-build-jet-soc-2-compliant
 [^buildjet-bad-cache]: https://news.ycombinator.com/item?id=38571518
+[^buildjet-shutdown]: https://buildjet.com/for-github-actions/blog/we-are-shutting-down
 
 ### Actuated ⭐
 
@@ -222,6 +226,8 @@ Notable features:
 
 [Cirrus Runners](https://cirrus-runners.app/) offers managed large runners (macOS M4 Pro, Linux x86/Arm/GPU) at a fixed price per month. Unlimited minutes with a limited concurrency.
 
+> **Closed to new customers.** Cirrus Labs announced on 2026-04-07 that it has agreed to join OpenAI, that it no longer accepts new customers for Cirrus Runners, and that it will keep supporting existing customers through their current contract periods. Cirrus CI, its other product, shut down on 2026-06-01.[^cirrus-labs-openai]
+
 Pricing [here](https://cirrus-runners.app/pricing/).
 
 Notable features:
@@ -233,6 +239,24 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+[^cirrus-labs-openai]: https://cirruslabs.org/
+
+### runners.io
+
+[runners.io](https://www.runners.io/) provides managed runners for GitHub Actions on Linux x64, Linux ARM64 and Windows. Each job runs in its own fresh virtual machine.
+
+Pricing [here](https://www.runners.io/pricing).
+
+Notable features:
+
+- **1-line change:** a workflow switches over by changing its `runs-on:` label, such as `runnersio-2vcpu-ubuntu-2404`.[^runnersio-labels]
+- Billed per minute: $0.004 at 2 vCPU, $0.008 at 4 vCPU and $0.016 at 8 vCPU on Ubuntu x64, with 3,000 run-minutes a month included. A card is required before the first job runs.[^runnersio-pricing]
+- Sizes from 1 to 32 vCPU on Ubuntu x64, 2 to 16 vCPU on ARM64 and on Windows Server.[^runnersio-labels]
+- The Actions cache is included and not metered.[^runnersio-cache]
+
+[^runnersio-labels]: https://www.runners.io/docs/runners/labels
+[^runnersio-pricing]: https://www.runners.io/pricing
+[^runnersio-cache]: https://www.runners.io/docs/caching/actions-cache
 
 ## Honorable mentions
 
