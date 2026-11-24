@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Avrea](#avrea)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,30 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Avrea
+
+[Avrea](https://avrea.com/) runs GitHub Actions jobs on its own hardware, with CI observability built in. Linux x86 runs on dedicated AMD EPYC 4585PX hardware; macOS and ARM Linux run on Apple M5 Max.[^avrea-hw] Founded by the founders of Aiven and Nosto.
+
+Pricing [here](https://avrea.com/pricing).
+
+Notable features:
+
+- **1-line change to get faster and cheaper builds in most projects.**[^avrea-1line]
+- **2x faster builds than GitHub-hosted runners on hardware alone, 10x with cache hits.**[^avrea-hw]
+- Linux x86, Linux ARM, macOS (Apple M5 Max), and Windows runners.[^avrea-runners]
+- Caches in the same datacenter as the runners: supported [`actions/cache`](https://github.com/actions/cache) steps use them automatically, plus build and package caches (Docker, Bazel, Gradle, Turborepo, sccache, npm, pip, and more).[^avrea-cache]
+- CPU, memory and network metrics per job, searchable step-level logs, and SSH into running jobs.[^avrea-observability]
+- **3000 free minutes per month** on 2-vCPU Linux x86, pay-as-you-go from $0.002/min.[^avrea-pricing]
+- ISO 27001 certified and SOC 2 Type 2 attested.[^avrea-security]
+
+[^avrea-hw]: https://avrea.com/ci-runners
+[^avrea-1line]: https://docs.avrea.com/getting-started/
+[^avrea-runners]: https://docs.avrea.com/runners/
+[^avrea-cache]: https://docs.avrea.com/cache/overview/
+[^avrea-observability]: https://avrea.com/observability
+[^avrea-pricing]: https://avrea.com/pricing
+[^avrea-security]: https://docs.avrea.com/security/
 
 ## Honorable mentions
 
