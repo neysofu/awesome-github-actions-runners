@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [BuildPulse](#buildpulse)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,30 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### BuildPulse
+
+[BuildPulse](https://buildpulse.io/products/runners) offers managed Linux runners (x64 and arm64, 2 to 64 vCPUs) for GitHub Actions, billed per minute. The same machines can also run CircleCI and Semaphore jobs.
+
+Pricing [here](https://docs.buildpulse.io/runners/configuration-pricing).
+
+Notable features:
+
+- 1-line `runs-on` change, or let BuildPulse open one pull request per repository that changes only the `runs-on` lines.[^buildpulse-quickstart][^buildpulse-migration]
+- **3,000 free minutes per month** on the 2 vCPU x64 runner, no credit card required.[^buildpulse-pricing]
+- Works on personal GitHub accounts as well as organizations.[^buildpulse-quickstart]
+- One machine per job, so jobs run in parallel.[^buildpulse-pricing]
+- Co-located cache (250 GB included) via [`buildpulse/cache`](https://github.com/buildpulse/cache), a drop-in replacement for `actions/cache`.[^buildpulse-cache]
+- Docker builder runners that keep their layer cache between jobs.[^buildpulse-docker]
+- Benchmark workflows and every run are public.[^buildpulse-bench]
+- No macOS or Windows runners.
+
+[^buildpulse-quickstart]: https://docs.buildpulse.io/runners/quickstart
+[^buildpulse-migration]: https://docs.buildpulse.io/runners/migration-wizard
+[^buildpulse-pricing]: https://docs.buildpulse.io/runners/configuration-pricing
+[^buildpulse-cache]: https://docs.buildpulse.io/runners/toolkit/artifact-cache
+[^buildpulse-docker]: https://docs.buildpulse.io/runners/toolkit/remote-docker-builders
+[^buildpulse-bench]: https://github.com/buildpulse/runner-benchmarks
 
 ## Honorable mentions
 
