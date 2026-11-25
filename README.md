@@ -250,7 +250,6 @@ Notable features:
 - Co-located cache (250 GB included) via [`buildpulse/cache`](https://github.com/buildpulse/cache), a drop-in replacement for `actions/cache`.[^buildpulse-cache]
 - Docker builder runners that keep their layer cache between jobs.[^buildpulse-docker]
 - Benchmark workflows and every run are public.[^buildpulse-bench]
-- No macOS or Windows runners.
 
 [^buildpulse-quickstart]: https://docs.buildpulse.io/runners/quickstart
 [^buildpulse-migration]: https://docs.buildpulse.io/runners/migration-wizard
