@@ -21,6 +21,7 @@ GitHub Actions are pretty damn cool, but lord knows the official runners are slo
     - [Cirun](#cirun)
     - [Depot](#depot)
     - [Cirrus Runners](#cirrus-runners)
+    - [Tuist Runners](#tuist-runners)
   - [Honorable mentions](#honorable-mentions)
   - [Contributing to this list](#contributing-to-this-list)
 
@@ -233,6 +234,26 @@ Notable features:
 - SOC2 Type 1 compliant.
 
 [^6a]: https://cirrus-runners.app/blog/2025/01/07/announcing-m4-pro-availability-for-cirrus-runners/
+
+### Tuist Runners
+
+[Tuist Runners](https://tuist.dev/runners) are managed macOS and Linux runners that sit in the same rack as [Tuist's build cache](https://tuist.dev/cache), which developer machines, coding agents, and CI share. They also work with GitLab CI, Buildkite, and Bitrise.
+
+Pricing [here](https://tuist.dev/pricing).
+
+Notable features:
+
+- **1-line change**: `runs-on: tuist-macos` or `runs-on: tuist-linux`.
+- macOS runners on **M5 Pro Mac minis** that Tuist operates, with 8 vCPU / 24 GB and 16 vCPU / 48 GB machine shapes.[^7a]
+- Every job starts in a **fresh virtual machine** that is discarded afterwards. Each macOS image ships exactly one Xcode with its simulator runtimes and Metal toolchain preinstalled.[^7b]
+- **Build cache on the same network** for Xcode, Gradle, and Bazel outputs, plus cache volumes that keep directories such as DerivedData between jobs.[^7c]
+- Linux runners expose `/dev/kvm` for hardware-accelerated **Android emulators**.[^7d]
+- Job steps, logs, and CPU and memory metrics next to build and test insights.
+
+[^7a]: https://tuist.dev/pricing
+[^7b]: https://tuist.dev/en/docs/guides/features/runners/images
+[^7c]: https://tuist.dev/en/docs/guides/features/runners/cache-volumes
+[^7d]: https://tuist.dev/en/docs/guides/features/runners#android-emulators
 
 ## Honorable mentions
 
